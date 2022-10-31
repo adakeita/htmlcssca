@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   min-width: 100vh;
+  background-blend-mode: lighten;
 }
 
 .logo {
