@@ -6,6 +6,15 @@ body {
   min-width: 100vh;
 }
 
+.logo {
+  position:absolute;
+  top: 0;
+  left: 3;
+  height: 260px;
+  width: 400px;
+
+}
+
 .navbar {
   list-style-type: none;
   text-align: right;
@@ -24,23 +33,32 @@ body {
   color: rgba(255, 255, 255, 0.884);
 }
 
-.logo {
-  height: 300px;
-  width: 470px;
-  margin-left: 3%;
-  margin-top: -5%;
+.weatherwidget-io {
+  position: absolute;
+  float: right;
+  width: 200px;
 }
 
-.movies {
-margin-top: 3%;
-margin-left: 30%
+h2 {
+  margin-top: 25%;
+  margin-left: 10%;
+  color: white;
 }
 
-.movies img {
+.frontpagemovies {
+margin-top: 7%;
+margin-left: 30%;
+}
+
+.frontpagemovies a {
+  text-decoration: none;
+}
+
+.frontpagemovies img {
   display: inline;
   height: 250px;
   width: 175px;
-  box-shadow: 5px 10px darkblue;
+  box-shadow: 5px 10px darkslategrey;
   margin: 1%;
 }
 
@@ -52,7 +70,20 @@ margin-left: 30%
     display: inline;
     height: 250px;
     width: 175px;
-    box-shadow: 5px 10px darkblue;
+    box-shadow: 5px 10px darkslategrey 0.4;
     margin: 1%;
   }
+
+  .frontpagemovies img:hover {
+    transform: scale(1.1);
+  }
   
+  /*aboutmov page */
+
+  #aboutmovimg {
+    height: 350px;
+    width: 650px;
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-right: auto;
+  }
