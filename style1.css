@@ -7,15 +7,33 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vh;
-
 }
 
 .logo {
     position: relative;
     top: 3;
     margin-left: 3%;
-    height: 650px;
-    width: 990px;
+    height: 420px;
+    width: 705px;
+}
+
+/*NAVBAR*/
+.navbar {
+    float: right;
+    list-style-type: none;
+    text-align: right;
+    padding: 0;
+    font-weight: bold;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.navbar a {
+    color: rgba(255, 255, 255, 0.884);
 }
 
 /*Description*/
@@ -26,32 +44,56 @@ body {
     background-size: 1000px;
     border-radius: 5% 5%;
     max-width: 700px;
-    max-height: 300px;
+    max-height: 420px;
     margin-left: 30%;
 }
 
 .content p {
-    margin-top: 5%;
-    margin-left: 2%;
-    margin-bottom: 2%;
+    justify-content: center;
+    margin: auto;
     font-size: 30px;
     color: white;
+    padding: 3%;
 }
 
 /*Reviews*/
-.peoplewrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:  rgb(30, 92, 168);
-    width: 1000px;
-    height: 150px;
+.container {
+    margin: auto;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 3%;
+    width: 700px;
 }
 
-.peoplewrapper img {
-    height: 110px;
-    width: 150px;
+/* Clear floats after containers */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+    border-radius: 5%;
+    width: 150px;
+    height: 100px;
+    margin: auto;
+    float: none;
+    display: inline;
+}
+
+/* Increase the font-size of a span element */
+.container span { 
+    font-size: 20px;
+    margin: auto;
+}
+
+.container .creator {
+    float: left;
+}
+
+.container .consumer {
+    float: right;
 }
 
 /*Button*/
@@ -72,7 +114,7 @@ body {
     letter-spacing: 1.3px;
     font-weight: 700;
     color: #ffffff;
-    background: #280e75;
+    background: #071072;
     background: linear-gradient(90deg, rgb(30, 92, 168) 0%, rgb(17, 176, 225) 100%);
     border: none;
     border-radius: 1000px;
@@ -89,7 +131,7 @@ button::before {
     border-radius: 1000px;
     min-width: calc(300px + 12px);
     min-height: calc(60px + 12px);
-    border: 6px solid #ffffff;
+    border: 1px solid #ffffff;
     box-shadow: 0 0 60px rgba(8, 9, 79, 0.64);
     position: absolute;
     top: 50%;
@@ -118,7 +160,7 @@ footer {
     background-color: rgb(30, 92, 168);
     opacity: 0.6;
     width: 1670px;
-    height: 70px;
+    height: 50px;
     max-width: 1670px;
     max-height: 80px;
 }
@@ -127,14 +169,15 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3%;
     display: inline;
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 footer img {
-    margin-bottom: -5px;
+    margin-bottom: -7px;
     height: 30px;
     width: 30px;
 }
