@@ -173,3 +173,32 @@ input[type="submit"]:hover {
     padding: 10px 0;
     border-radius: 0 0 4px 4px;
 }
+
+footer {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 92, 168, 0.6);
+    width: 1670px;
+    height: 50px;
+    max-width: 1670px;
+    max-height: 80px;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    font-size: 20px;
+    color: #ffffff;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+footer img {
+    margin-bottom: -7px;
+    height: 30px;
+    width: 30px;
+}

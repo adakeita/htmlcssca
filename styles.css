@@ -5,18 +5,20 @@ body {
   min-height: 100vh;
   min-width: 100vh;
   background-blend-mode: lighten;
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .logo {
-  position:absolute;
+  float: left;
   top: 0;
   left: 3;
-  height: 260px;
+  height: 300px;
   width: 400px;
 
 }
 
 .navbar {
+  float: right;
   list-style-type: none;
   text-align: right;
   padding: 0;
@@ -34,12 +36,7 @@ body {
   color: rgba(255, 255, 255, 0.884);
 }
 
-.weatherwidget-io {
-  position: absolute;
-  float: right;
-  width: 200px;
-}
-
+/*Frontapge*/
 h2 {
   margin-top: 25%;
   margin-left: 10%;
@@ -47,8 +44,8 @@ h2 {
 }
 
 .frontpagemovies {
-margin-top: 7%;
-margin-left: 30%;
+  margin-top: 7%;
+  margin-left: 30%;
 }
 
 .frontpagemovies a {
@@ -65,26 +62,59 @@ margin-left: 30%;
 
 .movies2 {
   margin-top: 2%;
-  }
+}
 
-  .movies2 img {
-    display: inline;
-    height: 250px;
-    width: 175px;
-    box-shadow: 5px 10px darkslategrey 0.4;
-    margin: 1%;
-  }
+.movies2 img {
+  display: inline;
+  height: 250px;
+  width: 175px;
+  box-shadow: 5px 10px darkslategrey 0.4;
+  margin: 1%;
+}
 
-  .frontpagemovies img:hover {
-    transform: scale(1.1);
-  }
+.frontpagemovies img:hover {
+  transform: scale(1.1);
+}
+
+/*aboutmov page */
+#aboutmovimg {
+display: inline-block;
+margin-top: 10%;
+margin-left: 7%;
+margin-right: 20%;
+height: 350px;
+width: 650px;
+border: solid 1px white;
+}
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 92, 168);
+  opacity: 0.6;
+  width: 100vw;
+  height: 50px;
+  max-width: 1670px;
+  max-height: 80px;
+  margin-top: 15%;
   
-  /*aboutmov page */
+}
 
-  #aboutmovimg {
-    height: 350px;
-    width: 650px;
-    margin-top: 15%;
-    margin-left: 30%;
-    margin-right: auto;
-  }
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  font-size: 20px;
+  color: #ffffff;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+footer img {
+  margin-bottom: -7px;
+  height: 30px;
+  width: 30px;
+}
