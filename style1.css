@@ -1,20 +1,20 @@
 body {
     font-family: 'Rajdhani', sans-serif;
-    background-image: url("https://images.unsplash.com/photo-1493804714600-6edb1cd93080?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
     background-color: rgba(67, 140, 213, 0.486);
-    background-blend-mode: overlay;
     background-size: cover;
-    background-repeat: no-repeat;
     min-height: 100vh;
-    min-width: 100vh;
+    width: 98vw;
 }
 
 .logo {
+    float: left;
     position: relative;
     top: 3;
     margin-left: 3%;
     height: 420px;
     width: 705px;
+
 }
 
 /*NAVBAR*/
@@ -38,14 +38,11 @@ body {
 
 /*Description*/
 .content {
-    margin-top: 3%;
-    background-color: rgb(30, 92, 168);
-    opacity: 0.6;
-    background-size: 1000px;
-    border-radius: 2% 2%;
-    max-width: 700px;
-    max-height: 420px;
-    margin-left: 30%;
+    clear: left;
+    width: 500px;
+    margin-left: 11%;
+    padding-right: 10%;
+
 }
 
 .content p {
@@ -54,51 +51,33 @@ body {
     font-size: 30px;
     color: white;
     padding: 3%;
+    padding-right: 15%;
 }
 
 /*Reviews*/
 .wrapper {
-margin: 3% 25% 1% 26.5%;
+position: relative;
+clear: left;
+float: right;
+padding-right: 5%;
+margin-top: -30%;
 }
 
-.container {
-    margin: auto;
-    background-color:  rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-    padding: 3%;
-    width: 700px;
-}
-
-/* Clear floats after containers */
-.container::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-.container img {
+.wrapper img {
     border-radius: 5%;
-    padding-left: 9%;
-    width: 150px;
-    height: 100px;
-    margin: auto;
-    float: none;
-    display: inline-block;
+    width: 240px;
+    height: 200px;
+
+}
+
+.wrapper p {
+    color: white;
 }
 
 /* Increase the font-size of a span element */
-.container span { 
+.wrapper span { 
     font-size: 20px;
     margin: auto;
-}
-
-.container .creator {
-    float: left;
-}
-
-.container .consumer {
-    float: right;
 }
 
 /*Button*/
@@ -163,8 +142,8 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: rgb(30, 92, 168);
-    opacity: 0.6;
-    width: 1670px;
+
+    width: 98vw;
     height: 50px;
     max-width: 1670px;
     max-height: 80px;
