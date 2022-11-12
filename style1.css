@@ -48,7 +48,6 @@ body {
     font-size: 30px;
     color: white;
     padding: 3%;
-    padding-right: 15%;
     padding-bottom: 20px;
     padding-top: 40px;
 }
@@ -219,7 +218,7 @@ footer img {
         margin-left: 20px;
         margin-right: 20px;
         padding-right: 0;
-        padding: 3%;
+        padding: 10%;
     }
 
     .button {
