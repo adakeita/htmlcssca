@@ -148,19 +148,15 @@ footer {
 
 .elmenets {
     width: 33%;
+    size: 100%;
+    color: #ffffff;
 }
 
-/*footer p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: inline;
+footer p {
     font-size: 20px;
     color: #ffffff;
-    padding-right: 5%;
-    padding-left: 5%;
 }
-*/
+
 
 
 footer img {
