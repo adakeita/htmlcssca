@@ -2,9 +2,9 @@ body {
   font-family: 'Rajdhani', sans-serif;
   background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 100%S;
-  max-width: 100%;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
 }
 
 .top-container {
@@ -60,7 +60,7 @@ h2 {
   display: inline;
   height: 250px;
   width: 175px;
-  box-shadow: 5px 10px darkslategrey;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.493);
   margin: 1%;
 }
 
@@ -72,7 +72,7 @@ h2 {
   display: inline;
   height: 250px;
   width: 175px;
-  box-shadow: 5px 10px darkslategrey 0.4;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.541);
   margin: 1%;
 }
 
@@ -97,28 +97,34 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: rgb(30, 92, 168);
-  opacity: 0.6;
   width: 100vw;
   height: 50px;
-  max-width: 1670px;
   max-height: 80px;
-  margin-top: 5%;
-  
+}
+
+.elements {
+  width: 33%;
+  color: #ffffff;
 }
 
 footer p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: inline;
   font-size: 20px;
   color: #ffffff;
-  padding-right: 5%;
-  padding-left: 5%;
+  text-align: center;
 }
+
+
 
 footer img {
   margin-bottom: -7px;
   height: 30px;
   width: 30px;
+  color: #ffffff;
+}
+
+@media screen and (max-width:780px) {
+  .elements {
+      width: 100%;
+
+  }
 }
