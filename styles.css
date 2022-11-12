@@ -48,8 +48,10 @@ h2 {
 }
 
 .frontpagemovies {
-  margin-top: 7%;
-  margin-left: 30%;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
 .frontpagemovies a {
@@ -60,7 +62,7 @@ h2 {
   display: inline;
   height: 250px;
   width: 175px;
-  box-shadow: 5px 10px rgba(0, 0, 0, 0.493);
+  box-shadow: 5px 10px 8px 13px rgb(0 0 0 / 35%);
   margin: 1%;
 }
 
@@ -72,7 +74,7 @@ h2 {
   display: inline;
   height: 250px;
   width: 175px;
-  box-shadow: 5px 10px rgba(0, 0, 0, 0.541);
+  box-shadow: 8px 13px rgb(0 0 0 / 35%);
   margin: 1%;
 }
 
@@ -125,6 +127,34 @@ footer img {
 @media screen and (max-width:780px) {
   .elements {
       width: 100%;
+  }
 
+  .frontpagemovies,.movies2 {
+      display: block;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  body {
+      text-align: center;
+  }
+
+  .logo {
+      height: auto;
+      max-width: 80%;
+      max-height: 70%;
+  }
+
+  .content p {
+      margin: 0 auto;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-right: 0;
+      padding: 10%;
+  }
+
+  .button {
+      margin: 0;
   }
 }

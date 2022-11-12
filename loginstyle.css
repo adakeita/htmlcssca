@@ -46,8 +46,14 @@ a:active:hover {
     transition: all 0.2s ease;
 }
 
+.loginform-container {
+    width: 500px;
+    height: 200px;
+}
+
 #login-form-wrap {
     background-color: #fff;
+    max-width: 500px;
     width: 35%;
     margin: 30px auto;
     text-align: center;
@@ -206,6 +212,34 @@ footer img {
 @media screen and (max-width:780px) {
     .elements {
         width: 100%;
+    }
 
+    #login-form {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    body {
+        text-align: center;
+    }
+
+    .logo {
+        height: auto;
+        max-width: 80%;
+        max-height: 70%;
+    }
+
+    .content p {
+        margin: 0 auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-right: 0;
+        padding: 10%;
+    }
+
+    .button {
+        margin: 0;
     }
 }
