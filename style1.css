@@ -131,7 +131,7 @@ body {
     outline: none;
     position: relative;
     padding: 10px;
-    margin-left: 172px;
+    margin-left: 165px;
     padding-bottom: 2%;
 }
 
@@ -209,7 +209,12 @@ footer img {
     }
 
     .logo {
+        height: auto;
         max-width: 80%;
         max-height: 70%;
+    }
+
+    .content p,button{
+        margin: 0 auto;
     }
 }
