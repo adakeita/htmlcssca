@@ -141,13 +141,16 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: rgb(30, 92, 168);
-
     width: 100vw;
     height: 50px;
     max-height: 80px;
 }
 
-footer p {
+.elmenets {
+    width: 33%;
+}
+
+/*footer p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,6 +160,8 @@ footer p {
     padding-right: 5%;
     padding-left: 5%;
 }
+*/
+
 
 footer img {
     margin-bottom: -7px;
