@@ -51,15 +51,17 @@ body {
     color: white;
     padding: 3%;
     padding-right: 15%;
+    padding-bottom: 20px;
+
 }
 
 /*Reviews*/
 .wrapper {
-position: relative;
-clear: left;
-float: right;
-padding-right: 5%;
-margin-top: -30%;
+    position: relative;
+    clear: left;
+    float: right;
+    padding-right: 5%;
+    margin-top: -30%;
 }
 
 .wrapper img {
@@ -74,7 +76,7 @@ margin-top: -30%;
 }
 
 /* Increase the font-size of a span element */
-.wrapper span { 
+.wrapper span {
     font-size: 20px;
     margin: auto;
 }
@@ -97,7 +99,6 @@ margin-top: -30%;
     letter-spacing: 1.3px;
     font-weight: 700;
     color: #ffffff;
-    background: #071072;
     background: linear-gradient(90deg, rgb(30, 92, 168) 0%, rgb(17, 176, 225) 100%);
     border: none;
     border-radius: 1000px;
@@ -107,6 +108,7 @@ margin-top: -30%;
     outline: none;
     position: relative;
     padding: 10px;
+    margin-left: 15px;
 }
 
 button::before {
@@ -148,7 +150,6 @@ footer {
 
 .elements {
     width: 33%;
-    size: 100%;
     color: #ffffff;
 }
 
@@ -165,4 +166,11 @@ footer img {
     height: 30px;
     width: 30px;
     color: #ffffff;
+}
+
+@media screen and (max-width:780px) {
+    .elements {
+        width: 100%;
+        
+    }
 }
