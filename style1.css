@@ -214,7 +214,11 @@ footer img {
         max-height: 70%;
     }
 
-    .content p,button{
+    .content p {
         margin: 0 auto;
+    }
+
+    .button {
+        margin: 0;
     }
 }
