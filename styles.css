@@ -1,3 +1,4 @@
+/*GLOBAL*/
 body {
   font-family: 'Rajdhani', sans-serif;
   background-image: url("pawel-czerwinski-NWK_7U4KACc-unsplash.jpg");
@@ -10,19 +11,10 @@ body {
 .top-container {
   display: flex;
   align-items: flex-start;
-}
-
-.logo {
-  float: left;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 40px;
-  height: 300px;
-  width: 400px;
+  justify-content: flex-end;
 }
 
 .navbar {
-  list-style-type: none;
   text-align: right;
   padding: 0;
   margin: 0;
@@ -37,6 +29,16 @@ body {
 
 .navbar a {
   color: rgba(255, 255, 255, 0.884);
+}
+
+.logo {
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  height: 300px;
+  width: 400px;
 }
 
 /*Frontapge*/
@@ -82,11 +84,11 @@ h2 {
   transform: scale(1.1);
 }
 
-/*aboutmov page */
+/*ABOUTMOVIE page */
 .aboutmov {
   clear: left;
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   margin: 0 auto;
   height: 350px;
   width: 700px;
@@ -95,14 +97,16 @@ h2 {
 .aboutmov a {
   text-decoration: none;
 }
- 
+
 #aboutmovimg {
   margin: 0 auto;
   height: 350px;
   width: 650px;
   border: solid 1px white;
 }
-.info-content{
+
+/*informationalBTNS*/
+.info-content {
   margin: 0 auto;
   margin-left: 31%;
   margin-top: -50px;
@@ -111,17 +115,20 @@ h2 {
   padding-bottom: 150px;
 }
 
-.info-content p{
+.info-content p {
   font-size: 30px;
 }
+
 .infobtns {
-  padding: 15px;
-  padding-left: 30%;
-  margin: 0 auto;
-  text-align: center;
+  display: inline-block;
+  padding: 5px;
+  padding-left: 0%;
+  margin-left: 115px;
 }
 
 .btncontainer {
+  height: 70px;
+  width: 90px;
   display: inline;
   margin: 0 auto;
 }
@@ -130,16 +137,57 @@ h2 {
   text-decoration: none;
 }
 
-.rottencontainer {
+.rottencontainer,
+.imdbcontainer {
   display: inline;
   margin: 0 auto;
 }
 
-.infobtns img {
+.infobtns .images {
   width: 60px;
   height: 40px;
-  border: 1px white;
-  border-radius: 5%;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.cartbtn {
+  display: inline;
+  width: 95px;
+  height: 65px;
+  padding-top: 5px;
+  margin: 0 auto;
+  margin-left: 220px;
+}
+
+.cartimage {
+  width: 95px;
+  height: 65px;
+  padding: 10px;
+  margin-top: 10px;
+
+}
+
+
+/*PURCHASE*/
+.order-card {
+  clear: left;
+  margin: 0 auto;
+  height: 400px;
+  width: 500px;
+  background-color: rgba(26, 29, 31, 0.708);
+}
+
+.buymovie {
+  display: inline;
+  margin: 0 auto;
+  height: 200px;
+  width: 150px;
+}
+
+.moviesummary {
+  display: inline;
+width: 60px;
+ color: #ffffff;
 }
 
 /*FOOTER*/
