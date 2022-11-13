@@ -198,6 +198,7 @@ footer p {
     font-size: 20px;
     color: #ffffff;
     text-align: center;
+    margin: 0;
 }
 
 
@@ -214,9 +215,18 @@ footer img {
         width: 100%;
     }
 
-    #login-form {
-        display: block;
+    .form-container {
+        min-height: 65vh;
+    }
+
+    #login-form-wrap {
         width: 80%;
+    }
+
+    #login-form {
+        padding: 0 20px;
+        display: block;
+        width: auto;
         margin: 0 auto;
         text-align: center;
     }
@@ -231,6 +241,9 @@ footer img {
         max-height: 70%;
     }
 
+    .content {
+        width: auto;
+    }
     .content p {
         margin: 0 auto;
         margin-left: 20px;
