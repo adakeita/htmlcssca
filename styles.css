@@ -113,7 +113,6 @@ h2 {
   justify-content: space-between;
   padding: 5px;
   padding-left: 0%;
-  margin-left: 115px;
 }
 
 .btncontainer {
@@ -136,16 +135,16 @@ h2 {
 .infobtns .images {
   width: 60px;
   height: 40px;
-  border-radius: 10%;
+  border-radius: 25%;
   padding: 10px;
 }
 
 .cartbtn {
   display: inline;
   width: 95px;
-  height: 65px;
+  padding-right: 60px;
+  margin-top: -20px;
   padding-top: 5px;
-  margin: 0 auto;
   margin-left: 220px;
 }
 
@@ -159,10 +158,9 @@ h2 {
 
 .info-content {
   margin: 0 auto;
-  margin-left: 31%;
   margin-top: 100px;
   color: #ffffff;
-  width: 400px;
+  width: 460px;
   padding-bottom: 150px;
 }
 
@@ -269,4 +267,21 @@ footer img {
   .button {
     margin: 0;
   }
+
+  .aboutmov {
+    width: auto;
+  }
+  .aboutmov img {
+    width: 80%;
+  }
+
+ .infobtns {
+   width: auto;
+   margin-left: 10%;
+   margin-right: 10%;
+ }
+
+ .cartbtn {
+  padding-right: 20px;
+ }
 }
