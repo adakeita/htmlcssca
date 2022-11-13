@@ -191,6 +191,33 @@ h2 {
   color: #ffffff;
 }
 
+/*ABOUT*/
+.aboutus {
+  clear: left;
+  text-align: center
+  ;
+}
+
+.team {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.story {
+  padding: 50px;
+  margin: 0 auto;
+  width: 450px;
+  color: #ffffff;
+}
+
+
+
+/*SUCCESS*/
+.yey {
+  margin: 0 auto;
+  text-align: center;
+  color: #ffffff;
+}
 /*FOOTER*/
 footer {
   display: flex;
@@ -271,8 +298,9 @@ footer img {
   .aboutmov {
     width: auto;
   }
-  .aboutmov img {
+  #aboutmovimg {
     width: 80%;
+    height: auto;
   }
 
  .infobtns {
@@ -283,5 +311,6 @@ footer img {
 
  .cartbtn {
   padding-right: 20px;
+  margin-left: auto;
  }
 }
