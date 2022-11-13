@@ -1,6 +1,6 @@
 body {
   font-family: 'Rajdhani', sans-serif;
-  background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+  background-image: url("pawel-czerwinski-NWK_7U4KACc-unsplash.jpg");
   background-size: cover;
   min-height: 100vh;
   width: 100vw;
@@ -16,13 +16,12 @@ body {
   float: left;
   padding-top: 10px;
   padding-left: 20px;
+  padding-right: 40px;
   height: 300px;
   width: 400px;
-
 }
 
 .navbar {
-  float: right;
   list-style-type: none;
   text-align: right;
   padding: 0;
@@ -49,10 +48,10 @@ h2 {
 }
 
 .frontpagemovies {
-    margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 100px;
-    text-align: center;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
 .frontpagemovies a {
@@ -84,14 +83,63 @@ h2 {
 }
 
 /*aboutmov page */
+.aboutmov {
+  clear: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+  height: 350px;
+  width: 700px;
+}
+
+.aboutmov a {
+  text-decoration: none;
+}
+ 
 #aboutmovimg {
-display: inline-block;
-margin-top: 10%;
-margin-left: 7%;
-margin-right: 20%;
-height: 350px;
-width: 650px;
-border: solid 1px white;
+  margin: 0 auto;
+  height: 350px;
+  width: 650px;
+  border: solid 1px white;
+}
+.info-content{
+  margin: 0 auto;
+  margin-left: 31%;
+  margin-top: -50px;
+  color: #ffffff;
+  width: 400px;
+  padding-bottom: 150px;
+}
+
+.info-content p{
+  font-size: 30px;
+}
+.infobtns {
+  padding: 15px;
+  padding-left: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btncontainer {
+  display: inline;
+  margin: 0 auto;
+}
+
+.btncontainer a {
+  text-decoration: none;
+}
+
+.rottencontainer {
+  display: inline;
+  margin: 0 auto;
+}
+
+.infobtns img {
+  width: 60px;
+  height: 40px;
+  border: 1px white;
+  border-radius: 5%;
 }
 
 /*FOOTER*/
@@ -102,6 +150,7 @@ footer {
   background-color: rgb(30, 92, 168);
   width: 100vw;
   height: 70px;
+  margin-bottom: -20px;
 }
 
 .elements {
@@ -116,8 +165,6 @@ footer p {
   text-align: center;
 }
 
-
-
 footer img {
   margin-bottom: -7px;
   height: 30px;
@@ -127,40 +174,42 @@ footer img {
 
 @media screen and (max-width:780px) {
   .footer {
-    max-width:780px;
-  }
-  
-  .elements {
-      width: 100%;
-      display: block;
+    max-width: 780px;
+    margin-bottom: -20px;
   }
 
-  .frontpagemovies,.movies2 {
-      display: block;
-      width: 80%;
-      margin: 0 auto;
-      text-align: center;
+  .elements {
+    width: 100%;
+    display: block;
+  }
+
+  .frontpagemovies,
+  .movies2 {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   body {
-      text-align: center;
+    text-align: center;
   }
 
   .logo {
-      height: auto;
-      max-width: 80%;
-      max-height: 70%;
+    height: auto;
+    max-width: 80%;
+    max-height: 70%;
   }
 
   .content p {
-      margin: 0 auto;
-      margin-left: 20px;
-      margin-right: 20px;
-      padding-right: 0;
-      padding: 10%;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 0;
+    padding: 10%;
   }
 
   .button {
-      margin: 0;
+    margin: 0;
   }
 }
