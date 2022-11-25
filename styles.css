@@ -205,19 +205,29 @@ h2 {
 /*ABOUT*/
 .aboutus {
   clear: left;
-  text-align: center
-  ;
+  text-align: center;
 }
 
 .team {
   margin: 0 auto;
-  width: 700px;
+  width: 600px;
 }
 
-.story {
-  padding: 50px;
+
+.text {
+  text-align: left;
   margin: 0 auto;
-  width: 450px;
+  padding: 50px;
+}
+
+ h3 {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 25px;
+ }
+.story {
+  margin: 0 auto;
+
   color: #ffffff;
 }
 
