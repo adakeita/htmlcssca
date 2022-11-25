@@ -1,7 +1,7 @@
 /*GLOBAL*/
 body {
   font-family: 'Rajdhani', sans-serif;
-  background-image: url("pawel-czerwinski-NWK_7U4KACc-unsplash.jpg");
+  background-image: url("./images/pawel-czerwinski-NWK_7U4KACc-unsplash.jpg");
   background-size: cover;
   min-height: 100vh;
   width: 100vw;
@@ -43,15 +43,19 @@ body {
 
 /*Frontapge*/
 h2 {
+
   font-family: 'Rajdhani', sans-serif;
-  font-size: 50px;
-  margin-top: 270px;
+  font-size: 30px;
   color: white;
+  font-weight: lighter;
+  font-style: italic;
+  background-color: rgba(0, 0, 0, 0.493);
+  border: solid 1px rgba(255, 255, 255, 0.475);
 }
 
 .frontpagemovies {
+  clear: left;
   margin: 0 auto;
-  padding-top: 70px;
   padding-bottom: 100px;
   text-align: center;
 }
@@ -69,7 +73,6 @@ h2 {
 }
 
 .movies2 {
-  margin-top: 2%;
 }
 
 .movies2 img {
@@ -81,7 +84,7 @@ h2 {
 }
 
 .frontpagemovies img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /*ABOUTMOVIE page */

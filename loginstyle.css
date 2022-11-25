@@ -1,6 +1,6 @@
 body {
     font-family: 'Rajdhani', sans-serif;
-    background-image: url("pawel-czerwinski-NWK_7U4KACc-unsplash.jpg");
+    background-image: url("./images/pawel-czerwinski-NWK_7U4KACc-unsplash.jpg");
     background-size: cover;
     min-height: 100vh;
     width: 100vw;
@@ -14,6 +14,8 @@ body {
     height: 420px;
     width: 705px;
 }
+
+/*FORM*/
 
 h2 {
     font-weight: 300;
@@ -49,6 +51,7 @@ a:active:hover {
 .loginform-container {
     width: 500px;
     height: 200px;
+    margin-bottom: 300px;
 }
 
 #login-form-wrap {
@@ -244,6 +247,7 @@ footer img {
     .content {
         width: auto;
     }
+
     .content p {
         margin: 0 auto;
         margin-left: 20px;
