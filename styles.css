@@ -72,9 +72,6 @@ h2 {
   margin: 1%;
 }
 
-.movies2 {
-}
-
 .movies2 img {
   display: inline;
   height: 250px;
@@ -179,7 +176,7 @@ h2 {
   height: 200px;
   width: 500px;
   padding: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
   background-color: rgba(26, 29, 31, 0.708);
 }
 
@@ -190,6 +187,7 @@ h2 {
   display: inline;
   height: 200px;
   width: 150px;
+  border: solid 1px #ffffff;
 }
 
 .moviesummary {
@@ -199,6 +197,7 @@ h2 {
 }
 
 .accept a{
+  font-size: larger;
   color: #ffffff;
 }
 
@@ -235,12 +234,13 @@ h2 {
 
 /*SUCCESS*/
 .yey {
+  clear: left;
   margin: 0 auto;
+  padding-top: 200px;
   text-align: center;
   color: #ffffff;
-  padding-top: 50%;
   min-height: 40vh;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .accept {
@@ -300,6 +300,14 @@ footer img {
 
   body {
     text-align: center;
+  }
+
+  .buymovie {  
+    margin: 0 auto;
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    border: solid 1px #ffffff;
   }
 
   .logo {
